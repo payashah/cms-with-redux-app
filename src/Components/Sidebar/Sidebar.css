@@ -1,0 +1,82 @@
+.sidebar-ctrl {
+    flex: 1;
+    position: sticky;
+    background-color: white;
+    width: 25rem;
+    text-align: center;
+    margin-left: 3rem;
+
+
+}
+
+.sidebar-img {
+    width: 100%;
+}
+
+.sidebar {
+    padding: 2rem;
+}
+
+.sidebar-nameBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.sidebar-nameBox-name {
+    color: gray;
+
+}
+
+.sidebar-nameBox-family {
+    color: rgb(15, 148, 48);
+
+}
+
+.sidebar-jobBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.sidebar-jobBox-name {
+    color: gray;
+
+}
+
+.sidebar-jobBox-job {
+    color: brown;
+}
+
+.sidebar-courseBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+
+}
+
+.sidebar-courseBox-name {
+    color: gray;
+
+}
+
+.sidebar-courseBox-num {
+    color: rgb(67, 78, 230);
+
+}
+
+.sidebar-btn {
+    margin: 2rem;
+    font-size: 20px;
+    padding: .5rem 1.5rem;
+    background-color: rgb(54, 54, 243);
+    color: white;
+}
+
+.sidebar-btn:hover {
+    background-color: rgb(28, 28, 247);
+
+}
