@@ -7,6 +7,7 @@ import Articles from "./Pages/Articles/Articles";
 
 const routes = [
     { path: "/", element: <Users></Users> },
+    { path: "/users", element: <Users></Users> },
     { path: "/Courses", element: <Courses></Courses> },
     { path: "/Infos", element: <Infos></Infos> },
     { path: "/Article", element: <Articles></Articles> },

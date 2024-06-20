@@ -14,6 +14,7 @@ function App() {
       <Header></Header>
       <div className='App-main'>
         <Sidebar></Sidebar>
+
         {router}
       </div>
 

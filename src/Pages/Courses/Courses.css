@@ -1,0 +1,192 @@
+.courses-ctrl {
+    flex: 3.5;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+
+}
+
+.courses-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.courses-titles-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-titles-ul-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.courses-titles-ul-li-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .5rem;
+    color: gray;
+}
+
+.courses-titles-ul-li-a:hover {
+    color: rgb(74, 74, 74);
+    border-bottom: 1px solid black;
+}
+
+.courses-titles-ul-li-a-logo {}
+
+.courses-titles-ul-li-a-title {
+    margin-right: .3rem;
+}
+
+/*  */
+
+.courses {
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    margin: 0 2.5rem 1.5rem 2.5rem;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.courses-img {
+    max-width: 17rem;
+    height: 11rem;
+    margin-left: 1.5rem;
+}
+
+.course-information-ctrl {
+    width: 100%;
+}
+
+.courses-descBox {}
+
+.courses-descBox-title {
+    color: green;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.courses-descBox-desc {
+    max-width: 30rem;
+    color: brown;
+    font-size: 13px;
+}
+
+.courses-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-infos-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.courses-infos-details-box {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rebeccapurple;
+}
+
+.courses-infos-details-box-icon {
+    margin-left: .5rem;
+}
+
+.courses-infos-details-box-text {
+    margin-left: .5rem;
+}
+
+.courses-infos-btns {
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-infos-btns-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    padding: .2rem 0;
+    margin-left: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.courses-infos-btns-btn.change {
+    background-color: skyblue;
+}
+
+.courses-infos-btns-btn.change:hover {
+    background-color: rgb(95, 195, 235);
+}
+
+.courses-infos-btns-btn.delete {
+    background-color: rgb(243, 94, 94);
+    color: white;
+}
+
+.courses-infos-btns-btn.delete:hover {
+    background-color: rgb(244, 53, 53);
+}
+
+/* main btn */
+
+.courses-btns-main {
+    display: flex;
+    align-items: center;
+    margin: 0 2.5rem;
+}
+
+.courses-btns-main-btn {
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    padding: .5rem 1.5rem;
+    font-size: 15px;
+    margin-left: .5rem;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.courses-btns-main-btn.create {
+    background-color: rgb(34, 203, 34);
+}
+
+.courses-btns-main-btn.create:hover {
+    background-color: rgb(19, 164, 19);
+}
+
+.courses-btns-main-btn.offs {
+    background-color: rgb(243, 96, 96);
+}
+
+.courses-btns-main-btn.offs:hover {
+    background-color: rgb(239, 50, 50);
+}
+
+.courses-btns-main-btn.category {
+    background-color: skyblue;
+}
+
+.courses-btns-main-btn.category:hover {
+    background-color: rgb(61, 162, 202);
+}
