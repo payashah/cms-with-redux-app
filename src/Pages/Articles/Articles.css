@@ -1,0 +1,150 @@
+.articles-ctrl {
+    flex: 3.5;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+
+}
+
+.articles-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.articles-titles-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles-titles-ul-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.articles-titles-ul-li-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .5rem;
+    color: gray;
+}
+
+.articles-titles-ul-li-a:hover {
+    color: rgb(74, 74, 74);
+    border-bottom: 1px solid black;
+}
+
+.articles-titles-ul-li-a-logo {}
+
+.articles-titles-ul-li-a-title {
+    margin-right: .3rem;
+}
+
+/*  */
+
+.article-details {
+    margin: 1rem 2.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+}
+
+.article-details-img {
+    max-width: 17rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.article-details-desc {}
+
+.article-details-desc-title {
+    color: green;
+}
+
+.article-details-desc-text {
+    color: brown;
+    max-width: 40rem;
+}
+
+.article-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+    font-size: 12px;
+}
+
+.article-information-category-ctrl {
+    display: flex;
+}
+
+.article-information-category {
+    display: flex;
+    align-items: center;
+}
+
+.article-information-icon {
+    margin-left: .5rem;
+}
+
+.article-information-text {
+    margin-left: 1rem;
+}
+
+/* btn */
+
+.article-information-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-information-btns-btn {
+    margin-left: .5rem;
+    width: 5rem;
+    padding: 0.3rem;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.article-information-btns-btn.delete {
+    background-color: rgb(247, 90, 90);
+}
+
+.article-information-btns-btn.delete:hover {
+    background-color: rgb(244, 45, 45);
+}
+
+.article-information-btns-btn.change {
+    background-color: skyblue;
+}
+
+.article-information-btns-btn.change:hover {
+    background-color: rgb(74, 156, 188);
+}
+
+.acticle-main-btn {
+    margin: 1rem 2.5rem;
+    width: 15rem;
+    height: 2rem;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(86, 86, 240);
+    border: none;
+    outline: none;
+}
+
+.acticle-main-btn:hover {
+    background-color: rgb(43, 43, 225);
+}

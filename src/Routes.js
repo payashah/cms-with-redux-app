@@ -10,7 +10,7 @@ const routes = [
     { path: "/users", element: <Users></Users> },
     { path: "/Courses", element: <Courses></Courses> },
     { path: "/Infos", element: <Infos></Infos> },
-    { path: "/Article", element: <Articles></Articles> },
+    { path: "/Articles", element: <Articles></Articles> },
 ]
 
 
