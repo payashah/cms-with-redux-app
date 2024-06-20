@@ -1,3 +1,171 @@
 .users-ctrl {
     flex: 3.5;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+
+}
+
+.users-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.users-titles-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-titles-ul-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.users-titles-ul-li-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .5rem;
+    color: gray;
+}
+
+.users-titles-ul-li-a:hover {
+    color: rgb(74, 74, 74);
+    border-bottom: 1px solid black;
+}
+
+.users-titles-ul-li-a-logo {}
+
+.users-titles-ul-li-a-title {
+    margin-right: .3rem;
+}
+
+.users-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 2.5rem;
+}
+
+.users-email-inputBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    width: 30rem;
+    padding: .5rem;
+}
+
+.users-email-inputBox-logo {}
+
+.users-email-inputBox-input {
+    border: none;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: .2rem;
+    font-size: 18px;
+}
+
+.users-email-inputBox-btn {
+    font-size: 18px;
+    padding: .7rem 5rem;
+    cursor: pointer;
+    background-color: rgb(250, 102, 102);
+    color: white;
+    border: none;
+    out: none;
+}
+
+.users-email-inputBox-btn:hover {
+    background-color: rgb(241, 55, 55);
+
+}
+
+.users-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5rem;
+    padding: .5rem;
+    border: 1px solid gray;
+}
+
+.users-infos-infoBox {
+    display: flex;
+    align-items: center;
+}
+
+.users-infos-infoBox-img {
+    max-width: 5rem;
+    margin-left: 1rem;
+}
+
+.users-infos-infoBox-nameJob {
+    line-height: 0;
+}
+
+.users-infos-infoBox-nameJob-name {
+    color: brown;
+}
+
+.users-infos-infoBox-nameJob-job {
+    color: rgb(58, 58, 243);
+}
+
+.users-infos-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-infos-btns-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 5rem;
+    padding: .4rem 0;
+    margin: 0 .5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.users-infos-btns-btn.massage {
+    background-color: rgb(2, 198, 2);
+    color: white;
+}
+
+.users-infos-btns-btn.massage:hover {
+    background-color: rgb(2, 148, 2);
+}
+
+.users-infos-btns-btn.infos {
+    background-color: rgb(74, 74, 248);
+    color: white;
+}
+
+.users-infos-btns-btn.infos:hover {
+    background-color: rgb(31, 31, 252);
+
+}
+
+.users-infos-btns-btn.delete {
+    background-color: rgb(248, 89, 89);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.users-infos-btns-btn.delete:hover {
+    background-color: rgb(241, 33, 33);
+
 }
