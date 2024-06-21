@@ -14,37 +14,47 @@ function Infos() {
             <div className="infos-inputs">
                 <div className="infos-inputs-box">
                     <PersonIcon className="infos-inputs-box-icon"></PersonIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="نام ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <Diversity3Icon className="infos-inputs-box-icon"></Diversity3Icon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="نام خانوادگی ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <DescriptionIcon className="infos-inputs-box-icon"></DescriptionIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="نام کاربری ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <EmailIcon className="infos-inputs-box-icon"></EmailIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="ایمیل ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <VpnKeyIcon className="infos-inputs-box-icon"></VpnKeyIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="پسورد فعلی ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <VpnKeyIcon className="infos-inputs-box-icon"></VpnKeyIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="پسورد جدید ..." className="infos-inputs-box-input" type="text" />
                 </div>
                 <div className="infos-inputs-box">
                     <VpnKeyIcon className="infos-inputs-box-icon"></VpnKeyIcon>
-                    <input className="infos-inputs-box-input" type="text" />
+                    <input placeholder="تکرار پسورد جدید ..." className="infos-inputs-box-input" type="text" />
                 </div>
 
             </div>
             <div className="infos-imges">
-                <img className="infos-imges-profile" src="./img/admin/profile/banana.png" alt="pic" />
-                <img className="infos-imges-banner" src="./img/admin/banner/banner.png" alt="pic" />
+                <div>
+                    <p>عکس پروفایل : </p>
+                    <img className="infos-imges-profile" src="./img/admin/profile/banana.png" alt="pic" />
+                </div>
+                <div>
+                    <p>عکس پس زمینه :</p>
+                    <img className="infos-imges-banner" src="./img/admin/banner/banner.png" alt="pic" />
+                </div>
+            </div>
+
+            <div className="infos-btn">
+                <button className="infos-btn-main">آپدیت اطلاعات</button>
             </div>
 
         </div>

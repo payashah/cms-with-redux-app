@@ -2,14 +2,13 @@
     flex: 4;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
-
-
 }
 
 .userItem-titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(189, 188, 188);
 
 }
 
