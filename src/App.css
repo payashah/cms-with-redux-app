@@ -9,3 +9,8 @@ body {
     margin-top: 3rem;
 
 }
+
+.App-main-change {
+    flex: 4;
+    background-color: white;
+}

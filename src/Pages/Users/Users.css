@@ -1,57 +1,8 @@
-.users-ctrl {
-    flex: 3.5;
-    background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
-
-
-}
-
-.users-titles {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.users-titles-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.users-titles-ul-li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 3rem;
-
-}
-
-.users-titles-ul-li-a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    margin: 0 .5rem;
-    color: gray;
-}
-
-.users-titles-ul-li-a:hover {
-    color: rgb(74, 74, 74);
-    border-bottom: 1px solid black;
-}
-
-.users-titles-ul-li-a-logo {}
-
-.users-titles-ul-li-a-title {
-    margin-right: .3rem;
-}
-
 .users-email {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 2.5rem;
+    margin: 2rem 2.5rem;
 }
 
 .users-email-inputBox {
@@ -60,6 +11,10 @@
     border: 1px solid gray;
     width: 30rem;
     padding: .5rem;
+}
+
+.users-email-inputBox:hover {
+    border-bottom: 2px solid red;
 }
 
 .users-email-inputBox-logo {}
@@ -81,7 +36,7 @@
     background-color: rgb(250, 102, 102);
     color: white;
     border: none;
-    out: none;
+    outline: none;
 }
 
 .users-email-inputBox-btn:hover {

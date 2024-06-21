@@ -1,0 +1,98 @@
+.courseBox {
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    margin: 2rem 2.5rem 1.5rem 2.5rem;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.courseBox-img {
+    max-width: 17rem;
+    height: 11rem;
+    margin-left: 1.5rem;
+}
+
+.courseBox-information-ctrl {
+    width: 100%;
+}
+
+.courseBox-descBox {}
+
+.courseBox-descBox-title {
+    color: green;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.courseBox-descBox-desc {
+    max-width: 30rem;
+    color: brown;
+    font-size: 13px;
+}
+
+.courseBox-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courseBox-infos-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.courseBox-infos-details-box {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: rebeccapurple;
+}
+
+.courseBox-infos-details-box-icon {
+    margin-left: .5rem;
+}
+
+.courseBox-infos-details-box-text {
+    margin-left: .5rem;
+}
+
+.courseBox-infos-btns {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseBox-infos-btns-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    padding: .4rem 0;
+    margin-left: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.courseBox-infos-btns-btn.change {
+    background-color: skyblue;
+}
+
+.courseBox-infos-btns-btn.change:hover {
+    background-color: rgb(95, 195, 235);
+}
+
+.courseBox-infos-btns-btn.delete {
+    background-color: rgb(243, 94, 94);
+    color: white;
+}
+
+.courseBox-infos-btns-btn.delete:hover {
+    background-color: rgb(244, 53, 53);
+}

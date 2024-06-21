@@ -1,0 +1,84 @@
+.articleBox-details {
+    margin: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+}
+
+.articleBox-details-img {
+    max-width: 17rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.articleBox-details-desc {}
+
+.articleBox-details-desc-title {
+    color: green;
+}
+
+.articleBox-details-desc-text {
+    color: brown;
+    max-width: 40rem;
+}
+
+.articleBox-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+    font-size: 12px;
+}
+
+.articleBox-information-category-ctrl {
+    display: flex;
+}
+
+.articleBox-information-category {
+    display: flex;
+    align-items: center;
+}
+
+.articleBox-information-icon {
+    margin-left: .5rem;
+}
+
+.articleBox-information-text {
+    margin-left: 1rem;
+}
+
+/* btn */
+
+.articleBox-information-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articleBox-information-btns-btn {
+    margin-left: .5rem;
+    width: 5rem;
+    padding: 0.4rem;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.articleBox-information-btns-btn.delete {
+    background-color: rgb(247, 90, 90);
+}
+
+.articleBox-information-btns-btn.delete:hover {
+    background-color: rgb(244, 45, 45);
+}
+
+.articleBox-information-btns-btn.change {
+    background-color: skyblue;
+}
+
+.articleBox-information-btns-btn.change:hover {
+    background-color: rgb(74, 156, 188);
+}
