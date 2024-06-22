@@ -3,7 +3,6 @@
     margin: 2rem 2.5rem 1.5rem 2.5rem;
     background-color: rgb(243, 243, 243);
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
 }
@@ -27,21 +26,20 @@
 }
 
 .courseBox-descBox-desc {
-    max-width: 30rem;
     color: brown;
     font-size: 13px;
 }
 
 .courseBox-infos {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
 }
 
 .courseBox-infos-details {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 }
 

@@ -1,14 +1,14 @@
 .userItem-ctrl {
     flex: 4;
     background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    box-shadow: rgba(103, 115, 124, 0.4) 0px 8px 24px;
 }
 
 .userItem-titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(189, 188, 188);
+    background-color: rgb(206, 204, 204);
 
 }
 
@@ -36,8 +36,9 @@
 }
 
 .userItem-titles-ul-li-a:hover {
-    color: rgb(74, 74, 74);
-    border-bottom: 1px solid black;
+    color: brown;
+    border-bottom: 1px solid brown;
+
 }
 
 .userItem-titles-ul-li-a-logo {}

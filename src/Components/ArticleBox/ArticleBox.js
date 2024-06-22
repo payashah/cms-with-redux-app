@@ -11,7 +11,13 @@ function ArticleBox() {
             <img className="articleBox-details-img" src="./img/store/hero-bg-2.jpg" alt="" />
             <div className="articleBox-details-desc">
                 <h3 className="articleBox-details-desc-title"> متخصص جاوا اسکریپت</h3>
-                <h6 className="articleBox-details-desc-text">می بینید که روز به روز تقاضا برای متخصصین جاوا اسکریپت داره بیشتر و بیشتر میشه. پس اگه دوست دارید بهترین آموزش جاوا اسکریپت رو به صورت صفر تا صد دریافت کنید، میتونید روی سبزلرن حساب کنید.</h6>
+                <h6 className="articleBox-details-desc-text">دوره آموزش جاوا اسکریپت مربوط به زبان برنامه نویسی جاوا اسکریپت (Javascript) هست. یک زبان مشهور و محبوب که با جامعه‌ای فعال و بزرگ، یکی از کامل ترین و رایج ترین زبان های برنامه نویسی دنیاست.
+
+                    این زبان در اوایل با هدف ایجاد تغییراتی در ظاهر صفحاب وب و افزایش تعامل اونها با کاربر استفاده میشد.
+
+                    اما با گذشت زمان اونقدر توسعه داده شد که میشه گفت آچار فرانسه دنیای برنامه نویسی شده و در همه زمینه ها از طراحی وب گرفته تا سیستم های رزرواسیون و اینترنت اشیاء کاربرد داره.
+
+                    خبر خوب اینه که سبزلرن تصمیم گرفته برای مدت محدودی آموزش جاوا اسکریپت رایگان رو در اختیار کاربران علاقه‌مند قرار بده تا ببینیم دیگه چه بهونه ای برای شروع نکردن باقی میمونه.</h6>
                 <div className="articleBox-information">
                     <div className="articleBox-information-category-ctrl">
                         <div className="articleBox-information-category">

@@ -12,7 +12,9 @@
     margin-left: 1rem;
 }
 
-.articleBox-details-desc {}
+.articleBox-details-desc {
+    width: 100%;
+}
 
 .articleBox-details-desc-title {
     color: green;
@@ -20,7 +22,7 @@
 
 .articleBox-details-desc-text {
     color: brown;
-    max-width: 40rem;
+
 }
 
 .articleBox-information {
