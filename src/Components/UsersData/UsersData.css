@@ -1,0 +1,71 @@
+.users-infos-infoBox {
+    display: flex;
+    align-items: center;
+}
+
+.users-infos-infoBox-img {
+    max-width: 5rem;
+    margin-left: 1rem;
+}
+
+.users-infos-infoBox-nameJob {
+    line-height: 0;
+}
+
+.users-infos-infoBox-nameJob-name {
+    color: brown;
+}
+
+.users-infos-infoBox-nameJob-job {
+    color: rgb(58, 58, 243);
+}
+
+.users-infos-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-infos-btns-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 5rem;
+    padding: .4rem 0;
+    margin: 0 .5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.users-infos-btns-btn.massage {
+    background-color: rgb(2, 198, 2);
+    color: white;
+}
+
+.users-infos-btns-btn.massage:hover {
+    background-color: rgb(2, 148, 2);
+}
+
+.users-infos-btns-btn.infos {
+    background-color: rgb(74, 74, 248);
+    color: white;
+}
+
+.users-infos-btns-btn.infos:hover {
+    background-color: rgb(31, 31, 252);
+
+}
+
+.users-infos-btns-btn.delete {
+    background-color: rgb(248, 89, 89);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.users-infos-btns-btn.delete:hover {
+    background-color: rgb(241, 33, 33);
+
+}
