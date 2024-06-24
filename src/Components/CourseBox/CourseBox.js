@@ -20,7 +20,7 @@ function CourseBox({ title, price, category, registersCount, desc }) {
                     <div className="courseBox-infos-details">
                         <div className="courseBox-infos-details-box">
                             <CreditCardSharpIcon className="courseBox-infos-details-box-icon"></CreditCardSharpIcon>
-                            <p className="courseBox-infos-details-box-text">قیمت : {price.toLocaleString()} تومان</p>
+                            <p className="courseBox-infos-details-box-text">قیمت : {price} تومان</p>
                         </div>
                         <div className="courseBox-infos-details-box">
                             <CategorySharpIcon className="courseBox-infos-details-box-icon"></CategorySharpIcon>

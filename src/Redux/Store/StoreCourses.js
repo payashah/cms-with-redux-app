@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-export const getCoursesFromServer = createAsyncThunk("courses/getUsersFromServer",
+export const getCoursesFromServer = createAsyncThunk("courses/getCoursesFromServer",
     async (url) => {
         console.log("url: ", url);
 
