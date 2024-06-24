@@ -1,10 +1,10 @@
 import React from "react";
-import "./UsersData.css"
+import "./UsersInfos.css"
 
-function UsersData() {
+function UsersInfos() {
 
     return (
-        <>
+        <div className="users-infos">
             <div className="users-infos-infoBox">
                 <img className="users-infos-infoBox-img" src="./img/admin/profile/banana.png" alt="pic" />
                 <div className="users-infos-infoBox-nameJob">
@@ -16,7 +16,9 @@ function UsersData() {
                 <button className="users-infos-btns-btn massage">پیام ها</button>
                 <button className="users-infos-btns-btn infos">اطلاعات</button>
                 <button className="users-infos-btns-btn delete">حذف</button>
-            </div></>
+            </div>
+        </div>
     )
 }
-export default UsersData
+
+export default UsersInfos
