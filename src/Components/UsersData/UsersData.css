@@ -17,15 +17,15 @@
     margin-left: 1rem;
 }
 
-.users-infos-infoBox-nameJob {
+.users-infos-infoBox-nameEmail {
     line-height: 0;
 }
 
-.users-infos-infoBox-nameJob-name {
+.users-infos-infoBox-nameEmail-name {
     color: brown;
 }
 
-.users-infos-infoBox-nameJob-job {
+.users-infos-infoBox-nameEmail-email {
     color: rgb(58, 58, 243);
 }
 

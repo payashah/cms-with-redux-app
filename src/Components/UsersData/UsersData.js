@@ -1,15 +1,15 @@
 import React from "react";
-import "./UsersInfos.css"
+import "./UsersData.css"
 
-function UsersInfos() {
+function UsersData({ firstname, lastname, email }) {
 
     return (
         <div className="users-infos">
             <div className="users-infos-infoBox">
                 <img className="users-infos-infoBox-img" src="./img/admin/profile/banana.png" alt="pic" />
-                <div className="users-infos-infoBox-nameJob">
-                    <h4 className="users-infos-infoBox-nameJob-name">پایا شاه ملکی</h4>
-                    <h6 className="users-infos-infoBox-nameJob-job">Front-End Dev (React.js)</h6>
+                <div className="users-infos-infoBox-nameEmail">
+                    <h4 className="users-infos-infoBox-nameEmail-name">{firstname}</h4>
+                    <h6 className="users-infos-infoBox-nameEmail-email">{email}</h6>
                 </div>
             </div>
             <div className="users-infos-btns">
@@ -21,4 +21,4 @@ function UsersInfos() {
     )
 }
 
-export default UsersInfos
+export default UsersData

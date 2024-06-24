@@ -3,17 +3,19 @@ import "./Users.css"
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import { useDispatch, useSelector } from "react-redux";
 import { getUsersFromServer } from "../../Redux/Store/StoreUsers";
-import UsersInfos from "../../Components/UsersData/UsersInfos";
+import UsersData from "../../Components/UsersData/UsersData";
 
 
 function Users() {
 
     const users = useSelector((state) => state.users)
 
+    console.log("users :", users);
+
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(getUsersFromServer("https://fakestoreapi.com/products"))
+        dispatch(getUsersFromServer("https://redux-cms.iran.liara.run/api/users"))
     }, [])
 
 
@@ -30,8 +32,10 @@ function Users() {
                     <button className="users-email-inputBox-btn">حذف کاربر</button>
                 </div>
                 <div>
-                    <UsersInfos></UsersInfos>
-                    <UsersInfos></UsersInfos>
+                    {users.map((user) => (
+                        <UsersData key={user._id} {...user}></UsersData>
+                    ))}
+
 
                 </div>
             </div>
