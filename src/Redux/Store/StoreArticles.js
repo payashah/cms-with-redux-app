@@ -18,10 +18,7 @@ const slice = createSlice({
 
     extraReducers: (builder) => {
         builder.addCase(getArticlesFromServer.fulfilled, (state, action) => {
-            console.log("state", state);
-            console.log("action", action.payload);
-
-            state.push(...action.payload)
+            return action.payload
         })
     }
 })
