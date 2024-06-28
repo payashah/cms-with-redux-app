@@ -9,14 +9,13 @@ import { getArticlesFromServer } from "../../Redux/Store/StoreArticles";
 function Articles() {
 
     const articles = useSelector((state) => state.articles)
-
-    console.log("articles :", articles);
-
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(getArticlesFromServer("https://redux-cms.iran.liara.run/api/articles"))
+        dispatch(getArticlesFromServer())
     }, [])
+
+
 
     return (
 

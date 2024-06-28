@@ -3,8 +3,33 @@ import "./CourseBox.css"
 import CreditCardSharpIcon from '@mui/icons-material/CreditCardSharp';
 import CategorySharpIcon from '@mui/icons-material/CategorySharp';
 import GroupsSharpIcon from '@mui/icons-material/GroupsSharp';
+import { useDispatch } from "react-redux";
+import swal from "sweetalert";
+import { removeCourse } from "../../Redux/Store/StoreCourses";
 
-function CourseBox({ title, price, category, registersCount, desc }) {
+function CourseBox({ _id, title, price, category, registersCount, desc }) {
+
+    const dispatch = useDispatch()
+
+    const removeHandler = () => {
+
+        swal({
+            title: "آیا از حذف دوره اطمینان دارید؟",
+            icon: "warning",
+            buttons: ["خیر", "بله"]
+        }).then(result => {
+            console.log(result);
+            if (result) {
+                dispatch(removeCourse(_id))
+                swal({
+                    title: "دوره مورد نظر با موفقیت حذف شد",
+                    icon: "success",
+                    button: "بستن"
+                })
+            }
+        })
+
+    }
 
     return (
 
@@ -34,7 +59,7 @@ function CourseBox({ title, price, category, registersCount, desc }) {
                     </div>
                     <div className="courseBox-infos-btns">
                         <button className="courseBox-infos-btns-btn change">ویرایش</button>
-                        <button className="courseBox-infos-btns-btn delete">حذف</button>
+                        <button className="courseBox-infos-btns-btn delete" onClick={removeHandler}>حذف</button>
                     </div>
 
                 </div>
