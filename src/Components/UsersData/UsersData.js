@@ -1,7 +1,33 @@
 import React from "react";
 import "./UsersData.css"
+import { useDispatch } from "react-redux";
+import { removeUser } from "../../Redux/Store/StoreUsers";
+import swal from "sweetalert";
 
-function UsersData({ firstname, lastname, email }) {
+function UsersData({ _id, firstname, lastname, email }) {
+
+    const dispatch = useDispatch()
+
+    const removeHandler = () => {
+
+        swal({
+            title: "آیا از حذف اطمینان دارید ",
+            icon: "warning",
+            buttons: ["خیر", "بله"]
+        }).then(result => {
+            if (result) {
+                dispatch(removeUser(_id))
+                swal({
+                    title: "حذف با موفقیت انجام شد",
+                    icon: "success",
+                    button: "بسیار خب"
+                })
+            }
+        })
+
+    }
+
+
 
     return (
         <div className="users-infos">
@@ -15,7 +41,7 @@ function UsersData({ firstname, lastname, email }) {
             <div className="users-infos-btns">
                 <button className="users-infos-btns-btn massage">پیام ها</button>
                 <button className="users-infos-btns-btn infos">اطلاعات</button>
-                <button className="users-infos-btns-btn delete">حذف</button>
+                <button className="users-infos-btns-btn delete" onClick={removeHandler}>حذف</button>
             </div>
         </div>
     )
