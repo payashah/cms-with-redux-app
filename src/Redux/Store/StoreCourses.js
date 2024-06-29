@@ -27,7 +27,9 @@ const slice = createSlice({
             return action.payload
         })
         builder.addCase(removeCourse.fulfilled, (state, action) => {
-            return action.payload
+            const newCoursesList = state.filter((course) => course._id !== action.payload.id)
+            return newCoursesList
+
         })
     }
 

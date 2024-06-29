@@ -2,8 +2,31 @@ import React from "react";
 import "./ArticleBox.css"
 import CategorySharpIcon from '@mui/icons-material/CategorySharp';
 import GroupsSharpIcon from '@mui/icons-material/GroupsSharp';
+import { useDispatch } from "react-redux";
+import { removeArticle } from "../../Redux/Store/StoreArticles";
+import swal from "sweetalert";
 
-function ArticleBox({ title, category, views, desc }) {
+function ArticleBox({ _id, title, category, views, desc }) {
+
+    const dispatch = useDispatch()
+
+    const removeHandler = () => {
+        swal({
+            title: "آیا از حذف این مقاله اطمینان دارید؟",
+            icon: "warning",
+            buttons: ["خیر", "بله"]
+        }).then(result => {
+            if (result) {
+                dispatch(removeArticle(_id))
+                swal({
+                    title: "حذف با موفقیت انجام شد",
+                    icon: "success",
+                    button: "بسیار خب"
+                })
+            }
+        })
+
+    }
 
     return (
 
@@ -25,7 +48,7 @@ function ArticleBox({ title, category, views, desc }) {
                     </div>
                     <div className="articleBox-information-btns">
                         <button className="articleBox-information-btns-btn change">ویرایش</button>
-                        <button className="articleBox-information-btns-btn delete">حذف</button>
+                        <button className="articleBox-information-btns-btn delete" onClick={removeHandler}>حذف</button>
                     </div>
                 </div>
             </div>
