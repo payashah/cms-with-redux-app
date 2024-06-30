@@ -72,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### picture of project
 https://github.com/payashah/cms-with-redux-app/issues/1#issue-2382133744
 https://github.com/payashah/cms-with-redux-app/issues/1#issuecomment-2198470525
+https://github.com/payashah/cms-with-redux-app/issues/1#issuecomment-2198473319
